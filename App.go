@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-contrib/static"
-	"github.com/sharath/go-react-boilerplate/backend"
+	. "./backend"
 )
 
 func main() {
