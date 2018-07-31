@@ -5,3 +5,6 @@
 
 # idea
 /.idea
+
+# lock file
+Gopkg.lock
