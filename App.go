@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/gin-contrib/static"
-	. "./backend"
+	"github.com/gin-gonic/gin"
+	"github.com/sharath/go-react-boilerplate/backend"
 )
 
 func main() {
@@ -12,4 +12,3 @@ func main() {
 	backend.V1(r.Group("/api/v1"))
 	r.Run(":3000")
 }
-

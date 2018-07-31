@@ -24,6 +24,7 @@
 #   go-tests = true
 #   unused-packages = true
 
+required = ["github.com/gin-contrib/static", "github.com/gin-gonic/gin"]
 
 [prune]
   go-tests = true
