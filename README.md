@@ -20,25 +20,11 @@ cd .. && go run App.go
 ```bash
 .
 ├── App.go
-├── Gopkg.lock
 ├── Gopkg.toml
 ├── README.md
 ├── backend
 │   └── Backend.go
 ├── client
-│   ├── build
-│   │   ├── asset-manifest.json
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── manifest.json
-│   │   ├── service-worker.js
-│   │   └── static
-│   │       ├── css
-│   │       │   ├── main.c17080f1.css
-│   │       │   └── main.c17080f1.css.map
-│   │       └── js
-│   │           ├── main.55f6fd33.js
-│   │           └── main.55f6fd33.js.map
 │   ├── package.json
 │   ├── public
 │   │   ├── favicon.ico
